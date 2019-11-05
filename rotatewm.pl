@@ -1,6 +1,6 @@
 #!/usr/bin/perl
 
-$usage="Usage: switchDesktop.pl offset\n";
+$usage="Usage: rotatewm.pl offset\n";
 
 $currentDesktop = `wmctrl -d | grep \\* | cut -d\\* -f 1`;
 $maxDesktop = `wmctrl -d | wc -l`;
